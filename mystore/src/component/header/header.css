@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 98vw;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    color: #fff;
+    margin: 0;
+}
+
+.search {
+    position: relative;
+}
+
+#search {
+    width: 200px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.fa-search {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16px;
+    font-size: 16px;
+    color: #fff;
+}
